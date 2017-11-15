@@ -1,3 +1,5 @@
+Multi Process Communication using Berkley’s Algorithm and Vector Clocks
+
 INSTRUCTIONS FOR BERKELEY PROJECT
 Step 1: Go to Berkeley folder
 Step 2: Compile the program -> javac -cp . project2/CoordinatorProcess.java 
