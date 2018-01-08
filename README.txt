@@ -1,6 +1,14 @@
 Multi Process Communication using Berkley’s Algorithm and Vector Clocks
 
-INSTRUCTIONS FOR BERKELEY PROJECT
+This projects is divided into 3 Parts:
+
+Part1: Berkeley Project : Demonstrates how time between processes can be synchronized using Berkeley Algorithm.
+
+Part2: Berkeley & Vector Clock Project: Shows use of berkeley algorithm for the initial communication and vector clocks is used for subsequent communication between processes inorder to get partial ordering of messages / events.
+
+Part3 : Shows how Centralized Algorithm is used to prevent concurrent write access to a file. One process is created as Coordinator.
+
+PART1 : INSTRUCTIONS FOR BERKELEY PROJECT
 Step 1: Go to Berkeley folder
 Step 2: Compile the program -> javac -cp . project2/CoordinatorProcess.java 
 Step 3: Run -> java project2.CoordinatorProcess 
@@ -14,12 +22,12 @@ Step 8: Run -> java SlaveProcess
 
 Step 9: Check the output
 
-INSTRUCTIONS FOR BERKELEY_VECTOR_CLOCKS PROJECT
+PART 2: INSTRUCTIONS FOR BERKELEY_VECTOR_CLOCKS PROJECT
 
 Step 1: Go to Berkeley_Vector_Clocks folder
 Step 2: Repeat the same the steps as Berkeley Project from Step 2.
 
-INSTRUCTIONS FOR BONUS PROJECT
+PART 3: INSTRUCTIONS FOR BONUS PROJECT
 
 Step 1: Go to Bonus folder
 Step 2: Compile the program -> javac -cp . project2/CoordinatorProcess.java 
